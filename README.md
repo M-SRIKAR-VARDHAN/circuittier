@@ -8,7 +8,7 @@ CircuitTier combines six interpretability signals to select a sparse *skeleton* 
 ---
 
 ## Main results
-
+![CircuitTier pipeline](paper/figures/fig1_pipeline.jpg)
 ### Gemma-2-2B fine-tuned for SQL (TinySQL), n = 105 baseline-correct samples
 
 | Method | Bits | Ratio | Retention % |
