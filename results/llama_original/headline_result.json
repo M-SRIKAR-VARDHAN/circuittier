@@ -1,0 +1,32 @@
+{
+  "name": "CT_P99_c4a4_headline",
+  "percentile": 99,
+  "skeleton_count": 2133,
+  "skeleton_pct": 0.46,
+  "compression_ratio": 3.84,
+  "retention_pct": 91.6,
+  "retained": 916,
+  "total_evaluated": 1000,
+  "per_complexity": {
+    "CY5": {
+      "retained": 207,
+      "total": 221
+    },
+    "CY2": {
+      "retained": 320,
+      "total": 356
+    },
+    "CY3": {
+      "retained": 204,
+      "total": 219
+    },
+    "CY4": {
+      "retained": 113,
+      "total": 128
+    },
+    "CY1": {
+      "retained": 72,
+      "total": 76
+    }
+  }
+}

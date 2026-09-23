@@ -1,0 +1,29 @@
+{
+  "retention": 71.1,
+  "retained": 711,
+  "total": 1000,
+  "per_cy": {
+    "CY2": {
+      "retained": 296,
+      "total": 366
+    },
+    "CY1": {
+      "retained": 65,
+      "total": 69
+    },
+    "CY4": {
+      "retained": 68,
+      "total": 123
+    },
+    "CY3": {
+      "retained": 138,
+      "total": 213
+    },
+    "CY5": {
+      "retained": 144,
+      "total": 229
+    }
+  },
+  "config": "no skeleton = uniform 4-bit (theirs 93.4)",
+  "eval_s": 285
+}

@@ -1,0 +1,29 @@
+{
+  "retention": 82.7,
+  "retained": 827,
+  "total": 1000,
+  "per_cy": {
+    "CY2": {
+      "retained": 317,
+      "total": 366
+    },
+    "CY1": {
+      "retained": 63,
+      "total": 69
+    },
+    "CY4": {
+      "retained": 95,
+      "total": 123
+    },
+    "CY3": {
+      "retained": 168,
+      "total": 213
+    },
+    "CY5": {
+      "retained": 184,
+      "total": 229
+    }
+  },
+  "config": "P=99 skeleton @16 (2133), rest @4, attn @4 (theirs c4a4_s4 97.1)",
+  "eval_s": 286
+}

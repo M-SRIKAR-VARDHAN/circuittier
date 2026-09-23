@@ -1,0 +1,16 @@
+# Environment used for the September 2026 reruns (Gemma-2-2B and Llama-3-8B).
+# torch: install the wheel matching your CUDA, e.g.
+#   pip install torch --index-url https://download.pytorch.org/whl/cu128
+torch>=2.4
+transformers==4.46.3
+accelerate>=1.0
+numpy<2
+scipy
+datasets
+huggingface_hub
+safetensors
+tqdm
+sqlparse
+matplotlib          # figures
+# fine-tuning notebooks only:
+bitsandbytes        # 8-bit AdamW

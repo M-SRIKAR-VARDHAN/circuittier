@@ -1,0 +1,318 @@
+{
+  "P99_c2_s16_p8_a4_g128": {
+    "retained": 0,
+    "total": 100,
+    "pct": 0.0,
+    "name": "P99_c2_s16_p8_a4_g128",
+    "compression_ratio": 6.13,
+    "config": {
+      "name": "P99_c2_s16_p8_a4_g128",
+      "P": 99,
+      "comp": 2,
+      "supp": 8,
+      "skel": 16,
+      "attn": 4,
+      "gs": 128
+    }
+  },
+  "P99_c2_s16_p8_a4_g64": {
+    "retained": 12,
+    "total": 100,
+    "pct": 12.0,
+    "name": "P99_c2_s16_p8_a4_g64",
+    "compression_ratio": 6.13,
+    "config": {
+      "name": "P99_c2_s16_p8_a4_g64",
+      "P": 99,
+      "comp": 2,
+      "supp": 8,
+      "skel": 16,
+      "attn": 4,
+      "gs": 64
+    }
+  },
+  "P99_c2_s16_p8_a4_g32": {
+    "retained": 27,
+    "total": 100,
+    "pct": 27.0,
+    "name": "P99_c2_s16_p8_a4_g32",
+    "compression_ratio": 6.13,
+    "config": {
+      "name": "P99_c2_s16_p8_a4_g32",
+      "P": 99,
+      "comp": 2,
+      "supp": 8,
+      "skel": 16,
+      "attn": 4,
+      "gs": 32
+    }
+  },
+  "P99_c2_s16_p4_a4_g64": {
+    "retained": 13,
+    "total": 100,
+    "pct": 13.0,
+    "name": "P99_c2_s16_p4_a4_g64",
+    "compression_ratio": 6.41,
+    "config": {
+      "name": "P99_c2_s16_p4_a4_g64",
+      "P": 99,
+      "comp": 2,
+      "supp": 4,
+      "skel": 16,
+      "attn": 4,
+      "gs": 64
+    }
+  },
+  "P99_c2_s16_p4_a3_g64": {
+    "retained": 10,
+    "total": 100,
+    "pct": 10.0,
+    "name": "P99_c2_s16_p4_a3_g64",
+    "compression_ratio": 6.95,
+    "config": {
+      "name": "P99_c2_s16_p4_a3_g64",
+      "P": 99,
+      "comp": 2,
+      "supp": 4,
+      "skel": 16,
+      "attn": 3,
+      "gs": 64
+    }
+  },
+  "P99_c3_s16_p4_a3_g128": {
+    "retained": 59,
+    "total": 100,
+    "pct": 59.0,
+    "name": "P99_c3_s16_p4_a3_g128",
+    "compression_ratio": 5.2,
+    "config": {
+      "name": "P99_c3_s16_p4_a3_g128",
+      "P": 99,
+      "comp": 3,
+      "supp": 4,
+      "skel": 16,
+      "attn": 3,
+      "gs": 128
+    }
+  },
+  "P99_c3_s16_p4_a3_g64": {
+    "retained": 68,
+    "total": 100,
+    "pct": 68.0,
+    "name": "P99_c3_s16_p4_a3_g64",
+    "compression_ratio": 5.2,
+    "config": {
+      "name": "P99_c3_s16_p4_a3_g64",
+      "P": 99,
+      "comp": 3,
+      "supp": 4,
+      "skel": 16,
+      "attn": 3,
+      "gs": 64
+    }
+  },
+  "P99_c3_s8_p4_a3_g64": {
+    "retained": 73,
+    "total": 100,
+    "pct": 73.0,
+    "name": "P99_c3_s8_p4_a3_g64",
+    "compression_ratio": 5.25,
+    "config": {
+      "name": "P99_c3_s8_p4_a3_g64",
+      "P": 99,
+      "comp": 3,
+      "supp": 4,
+      "skel": 8,
+      "attn": 3,
+      "gs": 64
+    }
+  },
+  "P99_c2_s16_p2_a2_g64": {
+    "retained": 0,
+    "total": 100,
+    "pct": 0.0,
+    "name": "P99_c2_s16_p2_a2_g64",
+    "compression_ratio": 7.8,
+    "config": {
+      "name": "P99_c2_s16_p2_a2_g64",
+      "P": 99,
+      "comp": 2,
+      "supp": 2,
+      "skel": 16,
+      "attn": 2,
+      "gs": 64
+    }
+  },
+  "P99_c2_s16_p2_a2_g32": {
+    "retained": 0,
+    "total": 100,
+    "pct": 0.0,
+    "name": "P99_c2_s16_p2_a2_g32",
+    "compression_ratio": 7.8,
+    "config": {
+      "name": "P99_c2_s16_p2_a2_g32",
+      "P": 99,
+      "comp": 2,
+      "supp": 2,
+      "skel": 16,
+      "attn": 2,
+      "gs": 32
+    }
+  },
+  "P99_c2_s16_p4_a2_g32": {
+    "retained": 0,
+    "total": 100,
+    "pct": 0.0,
+    "name": "P99_c2_s16_p4_a2_g32",
+    "compression_ratio": 7.58,
+    "config": {
+      "name": "P99_c2_s16_p4_a2_g32",
+      "P": 99,
+      "comp": 2,
+      "supp": 4,
+      "skel": 16,
+      "attn": 2,
+      "gs": 32
+    }
+  },
+  "P99_c2_s8_p4_a2_g32": {
+    "retained": 0,
+    "total": 100,
+    "pct": 0.0,
+    "name": "P99_c2_s8_p4_a2_g32",
+    "compression_ratio": 7.69,
+    "config": {
+      "name": "P99_c2_s8_p4_a2_g32",
+      "P": 99,
+      "comp": 2,
+      "supp": 4,
+      "skel": 8,
+      "attn": 2,
+      "gs": 32
+    }
+  },
+  "P99_c2_s8_p4_a3_g32": {
+    "retained": 21,
+    "total": 100,
+    "pct": 21.0,
+    "name": "P99_c2_s8_p4_a3_g32",
+    "compression_ratio": 7.04,
+    "config": {
+      "name": "P99_c2_s8_p4_a3_g32",
+      "P": 99,
+      "comp": 2,
+      "supp": 4,
+      "skel": 8,
+      "attn": 3,
+      "gs": 32
+    }
+  },
+  "P99_c1_s16_p4_a4_g32": {
+    "retained": 0,
+    "total": 100,
+    "pct": 0.0,
+    "name": "P99_c1_s16_p4_a4_g32",
+    "compression_ratio": 9.3,
+    "config": {
+      "name": "P99_c1_s16_p4_a4_g32",
+      "P": 99,
+      "comp": 1,
+      "supp": 4,
+      "skel": 16,
+      "attn": 4,
+      "gs": 32
+    }
+  },
+  "P99_c1_s16_p8_a4_g32": {
+    "retained": 0,
+    "total": 100,
+    "pct": 0.0,
+    "name": "P99_c1_s16_p8_a4_g32",
+    "compression_ratio": 8.71,
+    "config": {
+      "name": "P99_c1_s16_p8_a4_g32",
+      "P": 99,
+      "comp": 1,
+      "supp": 8,
+      "skel": 16,
+      "attn": 4,
+      "gs": 32
+    }
+  },
+  "P95_c2_s16_p4_a3_g64": {
+    "retained": 16,
+    "total": 100,
+    "pct": 16.0,
+    "name": "P95_c2_s16_p4_a3_g64",
+    "compression_ratio": 5.68,
+    "config": {
+      "name": "P95_c2_s16_p4_a3_g64",
+      "P": 95,
+      "comp": 2,
+      "supp": 4,
+      "skel": 16,
+      "attn": 3,
+      "gs": 64
+    }
+  },
+  "P95_c2_s16_p4_a3_g32": {
+    "retained": 26,
+    "total": 100,
+    "pct": 26.0,
+    "name": "P95_c2_s16_p4_a3_g32",
+    "compression_ratio": 5.68,
+    "config": {
+      "name": "P95_c2_s16_p4_a3_g32",
+      "P": 95,
+      "comp": 2,
+      "supp": 4,
+      "skel": 16,
+      "attn": 3,
+      "gs": 32
+    }
+  },
+  "P90_c2_s16_p4_a3_g64": {
+    "retained": 25,
+    "total": 100,
+    "pct": 25.0,
+    "name": "P90_c2_s16_p4_a3_g64",
+    "compression_ratio": 4.6,
+    "config": {
+      "name": "P90_c2_s16_p4_a3_g64",
+      "P": 90,
+      "comp": 2,
+      "supp": 4,
+      "skel": 16,
+      "attn": 3,
+      "gs": 64
+    }
+  },
+  "perlayer_early2_late4": {
+    "retained": 10,
+    "total": 100,
+    "pct": 10.0,
+    "name": "perlayer_early2_late4",
+    "compression_ratio": 5.17
+  },
+  "perlayer_early2_late4_split20": {
+    "retained": 12,
+    "total": 100,
+    "pct": 12.0,
+    "name": "perlayer_early2_late4_split20",
+    "compression_ratio": 5.57
+  },
+  "perlayer_early2_late4_split24": {
+    "retained": 12,
+    "total": 100,
+    "pct": 12.0,
+    "name": "perlayer_early2_late4_split24",
+    "compression_ratio": 6.05
+  },
+  "perlayer_gradual_2to4": {
+    "retained": 0,
+    "total": 100,
+    "pct": 0.0,
+    "name": "perlayer_gradual_2to4",
+    "compression_ratio": 5.33
+  }
+}

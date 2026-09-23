@@ -1,0 +1,15 @@
+{
+  "method": "percentile",
+  "percentile": 95,
+  "mlp_total": 458752,
+  "mlp_skeleton": 16134,
+  "mlp_skeleton_pct": 3.517,
+  "mlp_supporting": 64477,
+  "mlp_supporting_pct": 14.055,
+  "mlp_compressible": 378141,
+  "mlp_compressible_pct": 82.428,
+  "attn_total": 1024,
+  "attn_skeleton": 15,
+  "attn_supporting": 204,
+  "attn_compressible": 805
+}

@@ -1,0 +1,218 @@
+{
+  "H1a: Tiered (original, prune=0)": {
+    "desc": "Your original config with prunable zeroed",
+    "valid_sql": 100.0,
+    "exact_match": 23.0,
+    "per_cs": {
+      "CS1": {
+        "valid": 100.0,
+        "exact": 75.0
+      },
+      "CS2": {
+        "valid": 100.0,
+        "exact": 25.0
+      },
+      "CS3": {
+        "valid": 100.0,
+        "exact": 10.0
+      },
+      "CS4": {
+        "valid": 100.0,
+        "exact": 0.0
+      },
+      "CS5": {
+        "valid": 100.0,
+        "exact": 5.0
+      }
+    }
+  },
+  "H1b: Tiered (prune\u21924bit instead)": {
+    "desc": "Same tiers but prunable at 4-bit not zeroed",
+    "valid_sql": 100.0,
+    "exact_match": 25.0,
+    "per_cs": {
+      "CS1": {
+        "valid": 100.0,
+        "exact": 80.0
+      },
+      "CS2": {
+        "valid": 100.0,
+        "exact": 25.0
+      },
+      "CS3": {
+        "valid": 100.0,
+        "exact": 15.0
+      },
+      "CS4": {
+        "valid": 100.0,
+        "exact": 0.0
+      },
+      "CS5": {
+        "valid": 100.0,
+        "exact": 5.0
+      }
+    }
+  },
+  "H2a: Tiered on ALL 7 projections": {
+    "desc": "Same tiers but quantize q/k/v/o not just q/o",
+    "valid_sql": 100.0,
+    "exact_match": 15.0,
+    "per_cs": {
+      "CS1": {
+        "valid": 100.0,
+        "exact": 40.0
+      },
+      "CS2": {
+        "valid": 100.0,
+        "exact": 20.0
+      },
+      "CS3": {
+        "valid": 100.0,
+        "exact": 10.0
+      },
+      "CS4": {
+        "valid": 100.0,
+        "exact": 0.0
+      },
+      "CS5": {
+        "valid": 100.0,
+        "exact": 5.0
+      }
+    }
+  },
+  "H3a: All at 4-bit EXCEPT skeleton@16": {
+    "desc": "Only skeleton protected, everything else uniform 4-bit",
+    "valid_sql": 100.0,
+    "exact_match": 18.0,
+    "per_cs": {
+      "CS1": {
+        "valid": 100.0,
+        "exact": 55.00000000000001
+      },
+      "CS2": {
+        "valid": 100.0,
+        "exact": 15.0
+      },
+      "CS3": {
+        "valid": 100.0,
+        "exact": 10.0
+      },
+      "CS4": {
+        "valid": 100.0,
+        "exact": 5.0
+      },
+      "CS5": {
+        "valid": 100.0,
+        "exact": 5.0
+      }
+    }
+  },
+  "H3b: Uniform 4-bit (no tiers at all)": {
+    "desc": "Reference: pure uniform 4-bit on all 7 projs",
+    "valid_sql": 100.0,
+    "exact_match": 15.0,
+    "per_cs": {
+      "CS1": {
+        "valid": 100.0,
+        "exact": 40.0
+      },
+      "CS2": {
+        "valid": 100.0,
+        "exact": 10.0
+      },
+      "CS3": {
+        "valid": 100.0,
+        "exact": 10.0
+      },
+      "CS4": {
+        "valid": 100.0,
+        "exact": 5.0
+      },
+      "CS5": {
+        "valid": 100.0,
+        "exact": 10.0
+      }
+    }
+  },
+  "H4a: skeleton@16 + everything else@4": {
+    "desc": "No supporting tier, no pruning \u2014 just skeleton vs rest",
+    "valid_sql": 100.0,
+    "exact_match": 19.0,
+    "per_cs": {
+      "CS1": {
+        "valid": 100.0,
+        "exact": 55.00000000000001
+      },
+      "CS2": {
+        "valid": 100.0,
+        "exact": 20.0
+      },
+      "CS3": {
+        "valid": 100.0,
+        "exact": 10.0
+      },
+      "CS4": {
+        "valid": 100.0,
+        "exact": 5.0
+      },
+      "CS5": {
+        "valid": 100.0,
+        "exact": 5.0
+      }
+    }
+  },
+  "H5a: Only MLP at 4-bit (attn untouched)": {
+    "desc": "Isolate MLP quantization damage",
+    "valid_sql": 100.0,
+    "exact_match": 21.0,
+    "per_cs": {
+      "CS1": {
+        "valid": 100.0,
+        "exact": 65.0
+      },
+      "CS2": {
+        "valid": 100.0,
+        "exact": 20.0
+      },
+      "CS3": {
+        "valid": 100.0,
+        "exact": 15.0
+      },
+      "CS4": {
+        "valid": 100.0,
+        "exact": 0.0
+      },
+      "CS5": {
+        "valid": 100.0,
+        "exact": 5.0
+      }
+    }
+  },
+  "H5b: Only Attn at 4-bit (MLP untouched)": {
+    "desc": "Isolate attention quantization damage",
+    "valid_sql": 100.0,
+    "exact_match": 30.0,
+    "per_cs": {
+      "CS1": {
+        "valid": 100.0,
+        "exact": 85.0
+      },
+      "CS2": {
+        "valid": 100.0,
+        "exact": 25.0
+      },
+      "CS3": {
+        "valid": 100.0,
+        "exact": 15.0
+      },
+      "CS4": {
+        "valid": 100.0,
+        "exact": 15.0
+      },
+      "CS5": {
+        "valid": 100.0,
+        "exact": 10.0
+      }
+    }
+  }
+}

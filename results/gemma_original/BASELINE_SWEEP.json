@@ -1,0 +1,191 @@
+{
+  "baseline_16bit": {
+    "ratio": 1.0,
+    "valid_sql": 100.0,
+    "exact_match": 53.0,
+    "per_cs": {
+      "CS1": {
+        "valid": 100.0,
+        "exact": 70.0
+      },
+      "CS2": {
+        "valid": 100.0,
+        "exact": 60.0
+      },
+      "CS3": {
+        "valid": 100.0,
+        "exact": 75.0
+      },
+      "CS4": {
+        "valid": 100.0,
+        "exact": 35.0
+      },
+      "CS5": {
+        "valid": 100.0,
+        "exact": 25.0
+      }
+    }
+  },
+  "uniform_8bit": {
+    "ratio": 2.0,
+    "valid_sql": 100.0,
+    "exact_match": 55.00000000000001,
+    "per_cs": {
+      "CS1": {
+        "valid": 100.0,
+        "exact": 75.0
+      },
+      "CS2": {
+        "valid": 100.0,
+        "exact": 60.0
+      },
+      "CS3": {
+        "valid": 100.0,
+        "exact": 75.0
+      },
+      "CS4": {
+        "valid": 100.0,
+        "exact": 35.0
+      },
+      "CS5": {
+        "valid": 100.0,
+        "exact": 30.0
+      }
+    }
+  },
+  "uniform_6bit": {
+    "ratio": 2.67,
+    "valid_sql": 100.0,
+    "exact_match": 54.0,
+    "per_cs": {
+      "CS1": {
+        "valid": 100.0,
+        "exact": 70.0
+      },
+      "CS2": {
+        "valid": 100.0,
+        "exact": 60.0
+      },
+      "CS3": {
+        "valid": 100.0,
+        "exact": 70.0
+      },
+      "CS4": {
+        "valid": 100.0,
+        "exact": 35.0
+      },
+      "CS5": {
+        "valid": 100.0,
+        "exact": 35.0
+      }
+    }
+  },
+  "uniform_5bit": {
+    "ratio": 3.2,
+    "valid_sql": 100.0,
+    "exact_match": 47.0,
+    "per_cs": {
+      "CS1": {
+        "valid": 100.0,
+        "exact": 85.0
+      },
+      "CS2": {
+        "valid": 100.0,
+        "exact": 45.0
+      },
+      "CS3": {
+        "valid": 100.0,
+        "exact": 60.0
+      },
+      "CS4": {
+        "valid": 100.0,
+        "exact": 25.0
+      },
+      "CS5": {
+        "valid": 100.0,
+        "exact": 20.0
+      }
+    }
+  },
+  "uniform_4bit": {
+    "ratio": 4.0,
+    "valid_sql": 100.0,
+    "exact_match": 43.0,
+    "per_cs": {
+      "CS1": {
+        "valid": 100.0,
+        "exact": 90.0
+      },
+      "CS2": {
+        "valid": 100.0,
+        "exact": 35.0
+      },
+      "CS3": {
+        "valid": 100.0,
+        "exact": 40.0
+      },
+      "CS4": {
+        "valid": 100.0,
+        "exact": 25.0
+      },
+      "CS5": {
+        "valid": 100.0,
+        "exact": 25.0
+      }
+    }
+  },
+  "uniform_3bit": {
+    "ratio": 5.33,
+    "valid_sql": 100.0,
+    "exact_match": 15.0,
+    "per_cs": {
+      "CS1": {
+        "valid": 100.0,
+        "exact": 20.0
+      },
+      "CS2": {
+        "valid": 100.0,
+        "exact": 10.0
+      },
+      "CS3": {
+        "valid": 100.0,
+        "exact": 30.0
+      },
+      "CS4": {
+        "valid": 100.0,
+        "exact": 10.0
+      },
+      "CS5": {
+        "valid": 100.0,
+        "exact": 5.0
+      }
+    }
+  },
+  "naive_tiered_3.94x": {
+    "ratio": 3.94,
+    "valid_sql": 100.0,
+    "exact_match": 23.0,
+    "per_cs": {
+      "CS1": {
+        "valid": 100.0,
+        "exact": 75.0
+      },
+      "CS2": {
+        "valid": 100.0,
+        "exact": 25.0
+      },
+      "CS3": {
+        "valid": 100.0,
+        "exact": 10.0
+      },
+      "CS4": {
+        "valid": 100.0,
+        "exact": 0.0
+      },
+      "CS5": {
+        "valid": 100.0,
+        "exact": 5.0
+      }
+    }
+  }
+}

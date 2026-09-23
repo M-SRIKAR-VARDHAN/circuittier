@@ -1,0 +1,223 @@
+{
+  "Random": {
+    "n_signals": 0,
+    "skeleton": 1295,
+    "retention": 97.14285714285714,
+    "retained": 102,
+    "per_cs": {
+      "CS1": 28,
+      "CS2": 23,
+      "CS3": 22,
+      "CS4": 15,
+      "CS5": 14
+    }
+  },
+  "EAP": {
+    "n_signals": 1,
+    "skeleton": 1295,
+    "retention": 97.14285714285714,
+    "retained": 102,
+    "per_cs": {
+      "CS1": 28,
+      "CS2": 23,
+      "CS3": 23,
+      "CS4": 14,
+      "CS5": 14
+    }
+  },
+  "Gradient": {
+    "n_signals": 1,
+    "skeleton": 1295,
+    "retention": 98.0952380952381,
+    "retained": 103,
+    "per_cs": {
+      "CS1": 28,
+      "CS2": 25,
+      "CS3": 22,
+      "CS4": 14,
+      "CS5": 14
+    }
+  },
+  "Magnitude": {
+    "n_signals": 1,
+    "skeleton": 1295,
+    "retention": 99.04761904761905,
+    "retained": 104,
+    "per_cs": {
+      "CS1": 28,
+      "CS2": 25,
+      "CS3": 22,
+      "CS4": 15,
+      "CS5": 14
+    }
+  },
+  "Weight \u0394": {
+    "n_signals": 1,
+    "skeleton": 1295,
+    "retention": 99.04761904761905,
+    "retained": 104,
+    "per_cs": {
+      "CS1": 28,
+      "CS2": 25,
+      "CS3": 22,
+      "CS4": 15,
+      "CS5": 14
+    }
+  },
+  "Activation \u0394": {
+    "n_signals": 1,
+    "skeleton": 1295,
+    "retention": 89.52380952380952,
+    "retained": 94,
+    "per_cs": {
+      "CS1": 24,
+      "CS2": 23,
+      "CS3": 20,
+      "CS4": 14,
+      "CS5": 13
+    }
+  },
+  "Edge Imp": {
+    "n_signals": 1,
+    "skeleton": 1295,
+    "retention": 98.0952380952381,
+    "retained": 103,
+    "per_cs": {
+      "CS1": 28,
+      "CS2": 23,
+      "CS3": 23,
+      "CS4": 15,
+      "CS5": 14
+    }
+  },
+  "EAP + Gradient": {
+    "n_signals": 2,
+    "skeleton": 1295,
+    "retention": 98.0952380952381,
+    "retained": 103,
+    "per_cs": {
+      "CS1": 28,
+      "CS2": 25,
+      "CS3": 22,
+      "CS4": 15,
+      "CS5": 13
+    }
+  },
+  "EAP + Weight \u0394": {
+    "n_signals": 2,
+    "skeleton": 1295,
+    "retention": 96.19047619047619,
+    "retained": 101,
+    "per_cs": {
+      "CS1": 27,
+      "CS2": 23,
+      "CS3": 22,
+      "CS4": 15,
+      "CS5": 14
+    }
+  },
+  "EAP + Activation \u0394": {
+    "n_signals": 2,
+    "skeleton": 1295,
+    "retention": 93.33333333333333,
+    "retained": 98,
+    "per_cs": {
+      "CS1": 24,
+      "CS2": 24,
+      "CS3": 23,
+      "CS4": 14,
+      "CS5": 13
+    }
+  },
+  "Gradient + Magnitude": {
+    "n_signals": 2,
+    "skeleton": 1295,
+    "retention": 97.14285714285714,
+    "retained": 102,
+    "per_cs": {
+      "CS1": 28,
+      "CS2": 24,
+      "CS3": 21,
+      "CS4": 15,
+      "CS5": 14
+    }
+  },
+  "Magnitude + Weight \u0394": {
+    "n_signals": 2,
+    "skeleton": 1295,
+    "retention": 98.0952380952381,
+    "retained": 103,
+    "per_cs": {
+      "CS1": 28,
+      "CS2": 24,
+      "CS3": 22,
+      "CS4": 15,
+      "CS5": 14
+    }
+  },
+  "3 signals: EAP+Gra+Mag": {
+    "n_signals": 3,
+    "skeleton": 1295,
+    "retention": 98.0952380952381,
+    "retained": 103,
+    "per_cs": {
+      "CS1": 28,
+      "CS2": 24,
+      "CS3": 22,
+      "CS4": 15,
+      "CS5": 14
+    }
+  },
+  "4 signals: EAP+Gra+Mag+Wei": {
+    "n_signals": 4,
+    "skeleton": 1295,
+    "retention": 95.23809523809524,
+    "retained": 100,
+    "per_cs": {
+      "CS1": 27,
+      "CS2": 24,
+      "CS3": 22,
+      "CS4": 14,
+      "CS5": 13
+    }
+  },
+  "5 signals: EAP+Gra+Mag+Wei+Act": {
+    "n_signals": 5,
+    "skeleton": 1295,
+    "retention": 99.04761904761905,
+    "retained": 104,
+    "per_cs": {
+      "CS1": 28,
+      "CS2": 24,
+      "CS3": 23,
+      "CS4": 15,
+      "CS5": 14
+    }
+  },
+  "6 signals: EAP+Gra+Mag+Wei+Act+Edg": {
+    "n_signals": 6,
+    "skeleton": 1295,
+    "retention": 100.0,
+    "retained": 105,
+    "per_cs": {
+      "CS1": 28,
+      "CS2": 25,
+      "CS3": 23,
+      "CS4": 15,
+      "CS5": 14
+    }
+  },
+  "Full method (tier rules)": {
+    "n_signals": 6,
+    "skeleton": 1295,
+    "retention": 99.04761904761905,
+    "retained": 104,
+    "per_cs": {
+      "CS1": 28,
+      "CS2": 24,
+      "CS3": 23,
+      "CS4": 15,
+      "CS5": 14
+    }
+  }
+}

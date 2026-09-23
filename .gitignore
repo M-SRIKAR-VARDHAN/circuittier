@@ -1,0 +1,29 @@
+# models and large arrays live on Hugging Face (see LARGE_FILES.md)
+*.safetensors
+*.bin
+*.pt
+*.pth
+models/
+hf/
+ALL_SIGNALS*.npz
+tacq_vulnerability.npz
+TACQ_ANALYSIS.json
+
+# python / jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.env
+
+# latex build
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/*.synctex.gz
+
+# os
+.DS_Store
+Thumbs.db

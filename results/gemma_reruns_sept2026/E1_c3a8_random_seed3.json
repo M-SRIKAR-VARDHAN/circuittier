@@ -1,0 +1,30 @@
+{
+  "retention": 69.52,
+  "retained": 73,
+  "total": 105,
+  "per_cs": {
+    "CS1": {
+      "retained": 27,
+      "total": 28
+    },
+    "CS2": {
+      "retained": 13,
+      "total": 25
+    },
+    "CS3": {
+      "retained": 13,
+      "total": 23
+    },
+    "CS4": {
+      "retained": 9,
+      "total": 15
+    },
+    "CS5": {
+      "retained": 11,
+      "total": 14
+    }
+  },
+  "config": "random 1295 @16, rest @3, attn @8",
+  "seed": 3,
+  "eval_s": 212
+}

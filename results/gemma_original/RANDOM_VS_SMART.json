@@ -1,0 +1,42 @@
+{
+  "3bit_a8": {
+    "Random (seed=42)": {
+      "retention": 80.95238095238095,
+      "retained": 85
+    },
+    "Random (seed=123)": {
+      "retention": 97.14285714285714,
+      "retained": 102
+    },
+    "Random (seed=777)": {
+      "retention": 92.38095238095238,
+      "retained": 97
+    },
+    "Smart (6-sig top-K)": {
+      "retention": 98.0952380952381,
+      "retained": 103
+    },
+    "Tier rules": {
+      "retention": 98.0952380952381,
+      "retained": 103
+    }
+  },
+  "3bit_a4": {
+    "Random (seed=42)": {
+      "retention": 66.66666666666667,
+      "retained": 70
+    },
+    "Random (seed=123)": {
+      "retention": 92.38095238095238,
+      "retained": 97
+    },
+    "Smart (6-sig top-K)": {
+      "retention": 95.23809523809524,
+      "retained": 100
+    },
+    "Tier rules": {
+      "retention": 95.23809523809524,
+      "retained": 100
+    }
+  }
+}

@@ -1,0 +1,583 @@
+{
+  "gptq_uniform_4bit": {
+    "retained": 956,
+    "total_evaluated": 1000,
+    "retention_pct": 95.6,
+    "per_complexity": {
+      "CY5": {
+        "retained": 220,
+        "total": 221
+      },
+      "CY2": {
+        "retained": 337,
+        "total": 356
+      },
+      "CY3": {
+        "retained": 208,
+        "total": 219
+      },
+      "CY4": {
+        "retained": 119,
+        "total": 128
+      },
+      "CY1": {
+        "retained": 72,
+        "total": 76
+      }
+    },
+    "name": "gptq_uniform_4bit",
+    "compression_ratio": 4.0,
+    "eval_time_min": 22.308209562301634
+  },
+  "gptq_uniform_3bit": {
+    "retained": 515,
+    "total_evaluated": 1000,
+    "retention_pct": 51.5,
+    "per_complexity": {
+      "CY5": {
+        "retained": 79,
+        "total": 221
+      },
+      "CY2": {
+        "retained": 247,
+        "total": 356
+      },
+      "CY3": {
+        "retained": 84,
+        "total": 219
+      },
+      "CY4": {
+        "retained": 39,
+        "total": 128
+      },
+      "CY1": {
+        "retained": 66,
+        "total": 76
+      }
+    },
+    "name": "gptq_uniform_3bit",
+    "compression_ratio": 5.33,
+    "eval_time_min": 21.821085933844248
+  },
+  "gptq_ct_s16_p8_c4_a8": {
+    "retained": 984,
+    "total_evaluated": 1000,
+    "retention_pct": 98.4,
+    "per_complexity": {
+      "CY5": {
+        "retained": 221,
+        "total": 221
+      },
+      "CY2": {
+        "retained": 350,
+        "total": 356
+      },
+      "CY3": {
+        "retained": 213,
+        "total": 219
+      },
+      "CY4": {
+        "retained": 125,
+        "total": 128
+      },
+      "CY1": {
+        "retained": 75,
+        "total": 76
+      }
+    },
+    "name": "gptq_ct_s16_p8_c4_a8",
+    "config": {
+      "name": "gptq_ct_s16_p8_c4_a8",
+      "skel": 16,
+      "supp": 8,
+      "comp": 4,
+      "attn": 8
+    },
+    "compression_ratio": 2.88,
+    "overall_effective_bits": 5.56,
+    "eval_time_min": 22.34787147839864
+  },
+  "gptq_ct_s16_p8_c4_a4": {
+    "retained": 973,
+    "total_evaluated": 1000,
+    "retention_pct": 97.3,
+    "per_complexity": {
+      "CY5": {
+        "retained": 220,
+        "total": 221
+      },
+      "CY2": {
+        "retained": 343,
+        "total": 356
+      },
+      "CY3": {
+        "retained": 213,
+        "total": 219
+      },
+      "CY4": {
+        "retained": 124,
+        "total": 128
+      },
+      "CY1": {
+        "retained": 73,
+        "total": 76
+      }
+    },
+    "name": "gptq_ct_s16_p8_c4_a4",
+    "config": {
+      "name": "gptq_ct_s16_p8_c4_a4",
+      "skel": 16,
+      "supp": 8,
+      "comp": 4,
+      "attn": 4
+    },
+    "compression_ratio": 3.34,
+    "overall_effective_bits": 4.8,
+    "eval_time_min": 22.37065974076589
+  },
+  "gptq_ct_s16_p4_c4_a8": {
+    "retained": 977,
+    "total_evaluated": 1000,
+    "retention_pct": 97.7,
+    "per_complexity": {
+      "CY5": {
+        "retained": 221,
+        "total": 221
+      },
+      "CY2": {
+        "retained": 348,
+        "total": 356
+      },
+      "CY3": {
+        "retained": 211,
+        "total": 219
+      },
+      "CY4": {
+        "retained": 124,
+        "total": 128
+      },
+      "CY1": {
+        "retained": 73,
+        "total": 76
+      }
+    },
+    "name": "gptq_ct_s16_p4_c4_a8",
+    "config": {
+      "name": "gptq_ct_s16_p4_c4_a8",
+      "skel": 16,
+      "supp": 4,
+      "comp": 4,
+      "attn": 8
+    },
+    "compression_ratio": 3.13,
+    "overall_effective_bits": 5.11,
+    "eval_time_min": 22.20498456954956
+  },
+  "gptq_ct_s16_p8_c3_a8": {
+    "retained": 929,
+    "total_evaluated": 1000,
+    "retention_pct": 92.9,
+    "per_complexity": {
+      "CY5": {
+        "retained": 196,
+        "total": 221
+      },
+      "CY2": {
+        "retained": 341,
+        "total": 356
+      },
+      "CY3": {
+        "retained": 204,
+        "total": 219
+      },
+      "CY4": {
+        "retained": 115,
+        "total": 128
+      },
+      "CY1": {
+        "retained": 73,
+        "total": 76
+      }
+    },
+    "name": "gptq_ct_s16_p8_c3_a8",
+    "config": {
+      "name": "gptq_ct_s16_p8_c3_a8",
+      "skel": 16,
+      "supp": 8,
+      "comp": 3,
+      "attn": 8
+    },
+    "compression_ratio": 3.27,
+    "overall_effective_bits": 4.9,
+    "eval_time_min": 22.318427566687266
+  },
+  "gptq_ct_s16_p4_c3_a8": {
+    "retained": 839,
+    "total_evaluated": 1000,
+    "retention_pct": 83.9,
+    "per_complexity": {
+      "CY5": {
+        "retained": 160,
+        "total": 221
+      },
+      "CY2": {
+        "retained": 323,
+        "total": 356
+      },
+      "CY3": {
+        "retained": 188,
+        "total": 219
+      },
+      "CY4": {
+        "retained": 96,
+        "total": 128
+      },
+      "CY1": {
+        "retained": 72,
+        "total": 76
+      }
+    },
+    "name": "gptq_ct_s16_p4_c3_a8",
+    "config": {
+      "name": "gptq_ct_s16_p4_c3_a8",
+      "skel": 16,
+      "supp": 4,
+      "comp": 3,
+      "attn": 8
+    },
+    "compression_ratio": 3.6,
+    "overall_effective_bits": 4.44,
+    "eval_time_min": 22.138420673211417
+  },
+  "gptq_ct_s16_p4_c3_a4": {
+    "retained": 801,
+    "total_evaluated": 1000,
+    "retention_pct": 80.1,
+    "per_complexity": {
+      "CY5": {
+        "retained": 144,
+        "total": 221
+      },
+      "CY2": {
+        "retained": 308,
+        "total": 356
+      },
+      "CY3": {
+        "retained": 181,
+        "total": 219
+      },
+      "CY4": {
+        "retained": 96,
+        "total": 128
+      },
+      "CY1": {
+        "retained": 72,
+        "total": 76
+      }
+    },
+    "name": "gptq_ct_s16_p4_c3_a4",
+    "config": {
+      "name": "gptq_ct_s16_p4_c3_a4",
+      "skel": 16,
+      "supp": 4,
+      "comp": 3,
+      "attn": 4
+    },
+    "compression_ratio": 4.35,
+    "overall_effective_bits": 3.67,
+    "eval_time_min": 22.104334477583567
+  },
+  "gptq_ct_s8_p4_c3_a4": {
+    "retained": 434,
+    "total_evaluated": 1000,
+    "retention_pct": 43.4,
+    "per_complexity": {
+      "CY5": {
+        "retained": 89,
+        "total": 221
+      },
+      "CY2": {
+        "retained": 198,
+        "total": 356
+      },
+      "CY3": {
+        "retained": 51,
+        "total": 219
+      },
+      "CY4": {
+        "retained": 34,
+        "total": 128
+      },
+      "CY1": {
+        "retained": 62,
+        "total": 76
+      }
+    },
+    "name": "gptq_ct_s8_p4_c3_a4",
+    "config": {
+      "name": "gptq_ct_s8_p4_c3_a4",
+      "skel": 8,
+      "supp": 4,
+      "comp": 3,
+      "attn": 4
+    },
+    "compression_ratio": 4.64,
+    "overall_effective_bits": 3.45,
+    "eval_time_min": 21.55751309792201
+  },
+  "gptq_ct_s8_p8_c4_a8": {
+    "retained": 855,
+    "total_evaluated": 1000,
+    "retention_pct": 85.5,
+    "per_complexity": {
+      "CY5": {
+        "retained": 182,
+        "total": 221
+      },
+      "CY2": {
+        "retained": 315,
+        "total": 356
+      },
+      "CY3": {
+        "retained": 177,
+        "total": 219
+      },
+      "CY4": {
+        "retained": 112,
+        "total": 128
+      },
+      "CY1": {
+        "retained": 69,
+        "total": 76
+      }
+    },
+    "name": "gptq_ct_s8_p8_c4_a8",
+    "config": {
+      "name": "gptq_ct_s8_p8_c4_a8",
+      "skel": 8,
+      "supp": 8,
+      "comp": 4,
+      "attn": 8
+    },
+    "compression_ratio": 3.0,
+    "overall_effective_bits": 5.34,
+    "eval_time_min": 22.193323334058125
+  },
+  "4tier_s16_i8_m6_c4_a8": {
+    "retained": 977,
+    "total_evaluated": 1000,
+    "retention_pct": 97.7,
+    "per_complexity": {
+      "CY5": {
+        "retained": 221,
+        "total": 221
+      },
+      "CY2": {
+        "retained": 344,
+        "total": 356
+      },
+      "CY3": {
+        "retained": 213,
+        "total": 219
+      },
+      "CY4": {
+        "retained": 125,
+        "total": 128
+      },
+      "CY1": {
+        "retained": 74,
+        "total": 76
+      }
+    },
+    "name": "4tier_s16_i8_m6_c4_a8",
+    "compression_ratio": 3.08,
+    "overall_effective_bits": 5.2,
+    "eval_time_min": 22.42579215367635
+  },
+  "4tier_s16_i8_m6_c4_a4": {
+    "retained": 966,
+    "total_evaluated": 1000,
+    "retention_pct": 96.6,
+    "per_complexity": {
+      "CY5": {
+        "retained": 220,
+        "total": 221
+      },
+      "CY2": {
+        "retained": 336,
+        "total": 356
+      },
+      "CY3": {
+        "retained": 211,
+        "total": 219
+      },
+      "CY4": {
+        "retained": 126,
+        "total": 128
+      },
+      "CY1": {
+        "retained": 73,
+        "total": 76
+      }
+    },
+    "name": "4tier_s16_i8_m6_c4_a4",
+    "compression_ratio": 3.61,
+    "overall_effective_bits": 4.43,
+    "eval_time_min": 22.344759011268614
+  },
+  "4tier_s16_i8_m6_c3_a4": {
+    "retained": 880,
+    "total_evaluated": 1000,
+    "retention_pct": 88.0,
+    "per_complexity": {
+      "CY5": {
+        "retained": 178,
+        "total": 221
+      },
+      "CY2": {
+        "retained": 326,
+        "total": 356
+      },
+      "CY3": {
+        "retained": 198,
+        "total": 219
+      },
+      "CY4": {
+        "retained": 106,
+        "total": 128
+      },
+      "CY1": {
+        "retained": 72,
+        "total": 76
+      }
+    },
+    "name": "4tier_s16_i8_m6_c3_a4",
+    "compression_ratio": 4.25,
+    "overall_effective_bits": 3.77,
+    "eval_time_min": 22.301940313975017
+  },
+  "4tier_s16_i6_m4_c3_a4": {
+    "retained": 813,
+    "total_evaluated": 1000,
+    "retention_pct": 81.3,
+    "per_complexity": {
+      "CY5": {
+        "retained": 157,
+        "total": 221
+      },
+      "CY2": {
+        "retained": 309,
+        "total": 356
+      },
+      "CY3": {
+        "retained": 175,
+        "total": 219
+      },
+      "CY4": {
+        "retained": 99,
+        "total": 128
+      },
+      "CY1": {
+        "retained": 73,
+        "total": 76
+      }
+    },
+    "name": "4tier_s16_i6_m4_c3_a4",
+    "compression_ratio": 4.56,
+    "overall_effective_bits": 3.51,
+    "eval_time_min": 22.23910117149353
+  },
+  "perlayer_A_early3_late4": {
+    "retained": 911,
+    "total_evaluated": 1000,
+    "retention_pct": 91.1,
+    "per_complexity": {
+      "CY5": {
+        "retained": 202,
+        "total": 221
+      },
+      "CY2": {
+        "retained": 326,
+        "total": 356
+      },
+      "CY3": {
+        "retained": 194,
+        "total": 219
+      },
+      "CY4": {
+        "retained": 115,
+        "total": 128
+      },
+      "CY1": {
+        "retained": 74,
+        "total": 76
+      }
+    },
+    "name": "perlayer_A_early3_late4",
+    "compression_ratio": 3.65,
+    "overall_effective_bits": 4.38,
+    "eval_time_min": 22.326180509726207
+  },
+  "perlayer_B_early3_late8": {
+    "retained": 800,
+    "total_evaluated": 1000,
+    "retention_pct": 80.0,
+    "per_complexity": {
+      "CY5": {
+        "retained": 162,
+        "total": 221
+      },
+      "CY2": {
+        "retained": 301,
+        "total": 356
+      },
+      "CY3": {
+        "retained": 169,
+        "total": 219
+      },
+      "CY4": {
+        "retained": 99,
+        "total": 128
+      },
+      "CY1": {
+        "retained": 69,
+        "total": 76
+      }
+    },
+    "name": "perlayer_B_early3_late8",
+    "compression_ratio": 3.63,
+    "overall_effective_bits": 4.41,
+    "eval_time_min": 21.863162072499595
+  },
+  "perlayer_C_gradual": {
+    "retained": 870,
+    "total_evaluated": 1000,
+    "retention_pct": 87.0,
+    "per_complexity": {
+      "CY5": {
+        "retained": 179,
+        "total": 221
+      },
+      "CY2": {
+        "retained": 323,
+        "total": 356
+      },
+      "CY3": {
+        "retained": 184,
+        "total": 219
+      },
+      "CY4": {
+        "retained": 112,
+        "total": 128
+      },
+      "CY1": {
+        "retained": 72,
+        "total": 76
+      }
+    },
+    "name": "perlayer_C_gradual",
+    "compression_ratio": 3.68,
+    "overall_effective_bits": 4.35,
+    "eval_time_min": 22.198259162902833
+  }
+}

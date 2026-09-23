@@ -1,0 +1,29 @@
+{
+  "retention": 77.14,
+  "retained": 81,
+  "total": 105,
+  "per_cs": {
+    "CS1": {
+      "retained": 28,
+      "total": 28
+    },
+    "CS2": {
+      "retained": 16,
+      "total": 25
+    },
+    "CS3": {
+      "retained": 17,
+      "total": 23
+    },
+    "CS4": {
+      "retained": 11,
+      "total": 15
+    },
+    "CS5": {
+      "retained": 9,
+      "total": 14
+    }
+  },
+  "config": "paper GPTQ uniform 3 (paper had 81.9, naive 87.6)",
+  "quant_s": 143
+}

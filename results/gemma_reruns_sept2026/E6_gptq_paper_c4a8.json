@@ -1,0 +1,37 @@
+{
+  "retention": 98.1,
+  "retained": 103,
+  "total": 105,
+  "per_cs": {
+    "CS1": {
+      "retained": 28,
+      "total": 28
+    },
+    "CS2": {
+      "retained": 24,
+      "total": 25
+    },
+    "CS3": {
+      "retained": 23,
+      "total": 23
+    },
+    "CS4": {
+      "retained": 14,
+      "total": 15
+    },
+    "CS5": {
+      "retained": 14,
+      "total": 14
+    }
+  },
+  "config": "paper sub-matrix 4-tier c4+a8 (reproduce 89.5)",
+  "quant_s": 151,
+  "perturbation": {
+    "skeleton_all3": 9.730586316436529e-05,
+    "nonskel_all3": 0.000782983610406518,
+    "skeleton_down": 0.00029191753128543496,
+    "nonskel_down": 0.0007403902127407491,
+    "p_all3": 0.0,
+    "p_down": 0.0
+  }
+}

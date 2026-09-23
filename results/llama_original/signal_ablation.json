@@ -1,0 +1,154 @@
+{
+  "only_S1_eap": {
+    "retained": 960,
+    "total_evaluated": 1000,
+    "retention_pct": 96.0,
+    "per_complexity": {
+      "CY5": {
+        "retained": 218,
+        "total": 221
+      },
+      "CY2": {
+        "retained": 335,
+        "total": 356
+      },
+      "CY3": {
+        "retained": 208,
+        "total": 219
+      },
+      "CY4": {
+        "retained": 125,
+        "total": 128
+      },
+      "CY1": {
+        "retained": 74,
+        "total": 76
+      }
+    },
+    "compression_ratio": 2.790694279127016,
+    "overall_effective_bits": 5.733340308779762,
+    "mlp_effective_bits": 4.600010463169643,
+    "attn_effective_bits": 8.0,
+    "label": "only_S1_eap",
+    "signals_used": [
+      "S1_eap"
+    ],
+    "skeleton_count": 22938,
+    "skel_threshold": 1,
+    "eval_time_min": 17.249179474512736
+  },
+  "only_S2_gradient": {
+    "retained": 974,
+    "total_evaluated": 1000,
+    "retention_pct": 97.4,
+    "per_complexity": {
+      "CY5": {
+        "retained": 219,
+        "total": 221
+      },
+      "CY2": {
+        "retained": 344,
+        "total": 356
+      },
+      "CY3": {
+        "retained": 211,
+        "total": 219
+      },
+      "CY4": {
+        "retained": 126,
+        "total": 128
+      },
+      "CY1": {
+        "retained": 74,
+        "total": 76
+      }
+    },
+    "compression_ratio": 2.790694279127016,
+    "overall_effective_bits": 5.733340308779762,
+    "mlp_effective_bits": 4.600010463169643,
+    "attn_effective_bits": 8.0,
+    "label": "only_S2_gradient",
+    "signals_used": [
+      "S2_gradient"
+    ],
+    "skeleton_count": 22938,
+    "skel_threshold": 1,
+    "eval_time_min": 17.270624951521555
+  },
+  "only_S3_magnitude": {
+    "retained": 893,
+    "total_evaluated": 1000,
+    "retention_pct": 89.3,
+    "per_complexity": {
+      "CY5": {
+        "retained": 212,
+        "total": 221
+      },
+      "CY2": {
+        "retained": 299,
+        "total": 356
+      },
+      "CY3": {
+        "retained": 196,
+        "total": 219
+      },
+      "CY4": {
+        "retained": 114,
+        "total": 128
+      },
+      "CY1": {
+        "retained": 72,
+        "total": 76
+      }
+    },
+    "compression_ratio": 2.790694279127016,
+    "overall_effective_bits": 5.733340308779762,
+    "mlp_effective_bits": 4.600010463169643,
+    "attn_effective_bits": 8.0,
+    "label": "only_S3_magnitude",
+    "signals_used": [
+      "S3_magnitude"
+    ],
+    "skeleton_count": 22938,
+    "skel_threshold": 1,
+    "eval_time_min": 17.29096554517746
+  },
+  "only_S4_weight_delta": {
+    "retained": 0,
+    "total_evaluated": 1000,
+    "retention_pct": 0.0,
+    "per_complexity": {
+      "CY5": {
+        "retained": 0,
+        "total": 221
+      },
+      "CY2": {
+        "retained": 0,
+        "total": 356
+      },
+      "CY3": {
+        "retained": 0,
+        "total": 219
+      },
+      "CY4": {
+        "retained": 0,
+        "total": 128
+      },
+      "CY1": {
+        "retained": 0,
+        "total": 76
+      }
+    },
+    "compression_ratio": 2.790694279127016,
+    "overall_effective_bits": 5.733340308779762,
+    "mlp_effective_bits": 4.600010463169643,
+    "attn_effective_bits": 8.0,
+    "label": "only_S4_weight_delta",
+    "signals_used": [
+      "S4_weight_delta"
+    ],
+    "skeleton_count": 22938,
+    "skel_threshold": 1,
+    "eval_time_min": 68.21974149942398
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "exact_match": 0,
+  "valid_cypher": 194,
+  "total": 200,
+  "per_complexity": {
+    "CY4": {
+      "exact": 0,
+      "valid": 39,
+      "total": 40
+    },
+    "CY1": {
+      "exact": 0,
+      "valid": 39,
+      "total": 40
+    },
+    "CY2": {
+      "exact": 0,
+      "valid": 39,
+      "total": 40
+    },
+    "CY5": {
+      "exact": 0,
+      "valid": 38,
+      "total": 40
+    },
+    "CY3": {
+      "exact": 0,
+      "valid": 39,
+      "total": 40
+    }
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "tacq_50_3bit_a8": {
+    "display": "TaCQ 50%@3b rest@4b a@8",
+    "avg_bits": 4.37,
+    "ratio": 3.66,
+    "retention": 96.19047619047619,
+    "retained": 101,
+    "total": 105,
+    "per_cs": {
+      "CS1": {
+        "retained": 28,
+        "total": 28,
+        "pct": 100.0
+      },
+      "CS2": {
+        "retained": 24,
+        "total": 25,
+        "pct": 96.0
+      },
+      "CS3": {
+        "retained": 22,
+        "total": 23,
+        "pct": 95.65217391304348
+      },
+      "CS4": {
+        "retained": 14,
+        "total": 15,
+        "pct": 93.33333333333333
+      },
+      "CS5": {
+        "retained": 13,
+        "total": 14,
+        "pct": 92.85714285714286
+      }
+    }
+  },
+  "tacq_75_3bit_a8": {
+    "display": "TaCQ 75%@3b rest@4b a@8",
+    "avg_bits": 4.17,
+    "ratio": 3.84,
+    "retention": 99.04761904761905,
+    "retained": 104,
+    "total": 105,
+    "per_cs": {
+      "CS1": {
+        "retained": 28,
+        "total": 28,
+        "pct": 100.0
+      },
+      "CS2": {
+        "retained": 24,
+        "total": 25,
+        "pct": 96.0
+      },
+      "CS3": {
+        "retained": 23,
+        "total": 23,
+        "pct": 100.0
+      },
+      "CS4": {
+        "retained": 15,
+        "total": 15,
+        "pct": 100.0
+      },
+      "CS5": {
+        "retained": 14,
+        "total": 14,
+        "pct": 100.0
+      }
+    }
+  },
+  "naive_c4_a4": {
+    "display": "Naive Tiered c4 + attn@4",
+    "avg_bits": 4.05,
+    "ratio": 3.95,
+    "retention": 77.14285714285714,
+    "retained": 81,
+    "total": 105,
+    "per_cs": {
+      "CS1": {
+        "retained": 18,
+        "total": 28,
+        "pct": 64.28571428571429
+      },
+      "CS2": {
+        "retained": 22,
+        "total": 25,
+        "pct": 88.0
+      },
+      "CS3": {
+        "retained": 20,
+        "total": 23,
+        "pct": 86.95652173913044
+      },
+      "CS4": {
+        "retained": 10,
+        "total": 15,
+        "pct": 66.66666666666667
+      },
+      "CS5": {
+        "retained": 11,
+        "total": 14,
+        "pct": 78.57142857142857
+      }
+    }
+  },
+  "naive_c3_a4": {
+    "display": "Naive Tiered c3 + attn@4",
+    "avg_bits": 3.24,
+    "ratio": 4.94,
+    "retention": 86.66666666666667,
+    "retained": 91,
+    "total": 105,
+    "per_cs": {
+      "CS1": {
+        "retained": 23,
+        "total": 28,
+        "pct": 82.14285714285714
+      },
+      "CS2": {
+        "retained": 22,
+        "total": 25,
+        "pct": 88.0
+      },
+      "CS3": {
+        "retained": 22,
+        "total": 23,
+        "pct": 95.65217391304348
+      },
+      "CS4": {
+        "retained": 13,
+        "total": 15,
+        "pct": 86.66666666666667
+      },
+      "CS5": {
+        "retained": 11,
+        "total": 14,
+        "pct": 78.57142857142857
+      }
+    }
+  },
+  "naive_c2_a8": {
+    "display": "Naive Tiered c2 + attn@8",
+    "avg_bits": 3.15,
+    "ratio": 5.07,
+    "retention": 3.8095238095238093,
+    "retained": 4,
+    "total": 105,
+    "per_cs": {
+      "CS1": {
+        "retained": 3,
+        "total": 28,
+        "pct": 10.714285714285714
+      },
+      "CS2": {
+        "retained": 0,
+        "total": 25,
+        "pct": 0.0
+      },
+      "CS3": {
+        "retained": 1,
+        "total": 23,
+        "pct": 4.3478260869565215
+      },
+      "CS4": {
+        "retained": 0,
+        "total": 15,
+        "pct": 0.0
+      },
+      "CS5": {
+        "retained": 0,
+        "total": 14,
+        "pct": 0.0
+      }
+    }
+  }
+}

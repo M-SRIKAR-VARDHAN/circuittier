@@ -1,0 +1,29 @@
+{
+  "retention": 89.4,
+  "retained": 894,
+  "total": 1000,
+  "per_cy": {
+    "CY2": {
+      "retained": 326,
+      "total": 366
+    },
+    "CY1": {
+      "retained": 67,
+      "total": 69
+    },
+    "CY4": {
+      "retained": 113,
+      "total": 123
+    },
+    "CY3": {
+      "retained": 177,
+      "total": 213
+    },
+    "CY5": {
+      "retained": 211,
+      "total": 229
+    }
+  },
+  "config": "no quantization, batched eval",
+  "eval_s": 287
+}

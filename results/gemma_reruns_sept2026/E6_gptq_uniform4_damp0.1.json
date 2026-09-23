@@ -1,0 +1,29 @@
+{
+  "retention": 88.57,
+  "retained": 93,
+  "total": 105,
+  "per_cs": {
+    "CS1": {
+      "retained": 21,
+      "total": 28
+    },
+    "CS2": {
+      "retained": 23,
+      "total": 25
+    },
+    "CS3": {
+      "retained": 21,
+      "total": 23
+    },
+    "CS4": {
+      "retained": 14,
+      "total": 15
+    },
+    "CS5": {
+      "retained": 14,
+      "total": 14
+    }
+  },
+  "config": "damp=0.1 \u2014 sensitivity check",
+  "quant_s": 140
+}

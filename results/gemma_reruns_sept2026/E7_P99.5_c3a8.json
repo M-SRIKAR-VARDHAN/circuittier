@@ -1,0 +1,31 @@
+{
+  "retention": 99.05,
+  "retained": 104,
+  "total": 105,
+  "per_cs": {
+    "CS1": {
+      "retained": 28,
+      "total": 28
+    },
+    "CS2": {
+      "retained": 24,
+      "total": 25
+    },
+    "CS3": {
+      "retained": 23,
+      "total": 23
+    },
+    "CS4": {
+      "retained": 15,
+      "total": 15
+    },
+    "CS5": {
+      "retained": 14,
+      "total": 14
+    }
+  },
+  "config": "percentile P=99.5 skeleton @16, rest @3, attn 8",
+  "P": 99.5,
+  "skeleton": 51,
+  "eval_s": 179
+}

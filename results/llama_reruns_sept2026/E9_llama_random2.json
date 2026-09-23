@@ -1,0 +1,30 @@
+{
+  "retention": 71.0,
+  "retained": 710,
+  "total": 1000,
+  "per_cy": {
+    "CY2": {
+      "retained": 298,
+      "total": 366
+    },
+    "CY1": {
+      "retained": 64,
+      "total": 69
+    },
+    "CY4": {
+      "retained": 69,
+      "total": 123
+    },
+    "CY3": {
+      "retained": 135,
+      "total": 213
+    },
+    "CY5": {
+      "retained": 144,
+      "total": 229
+    }
+  },
+  "config": "random 2133 @16",
+  "seed": 2,
+  "eval_s": 284
+}

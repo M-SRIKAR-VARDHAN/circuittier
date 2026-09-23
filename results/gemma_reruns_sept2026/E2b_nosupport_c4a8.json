@@ -1,0 +1,29 @@
+{
+  "retention": 97.14,
+  "retained": 102,
+  "total": 105,
+  "per_cs": {
+    "CS1": {
+      "retained": 27,
+      "total": 28
+    },
+    "CS2": {
+      "retained": 24,
+      "total": 25
+    },
+    "CS3": {
+      "retained": 23,
+      "total": 23
+    },
+    "CS4": {
+      "retained": 14,
+      "total": 15
+    },
+    "CS5": {
+      "retained": 14,
+      "total": 14
+    }
+  },
+  "config": "s16/sup4/c4/p0, attn 8",
+  "eval_s": 183
+}

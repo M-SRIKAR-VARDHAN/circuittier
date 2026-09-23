@@ -1,0 +1,29 @@
+{
+  "retention": 95.24,
+  "retained": 100,
+  "total": 105,
+  "per_cs": {
+    "CS1": {
+      "retained": 28,
+      "total": 28
+    },
+    "CS2": {
+      "retained": 21,
+      "total": 25
+    },
+    "CS3": {
+      "retained": 23,
+      "total": 23
+    },
+    "CS4": {
+      "retained": 14,
+      "total": 15
+    },
+    "CS5": {
+      "retained": 14,
+      "total": 14
+    }
+  },
+  "config": "aligned VulnSplit 50%@3b a8",
+  "eval_s": 188
+}

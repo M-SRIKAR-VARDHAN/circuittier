@@ -1,0 +1,34 @@
+{
+  "retention": 96.19,
+  "retained": 101,
+  "total": 105,
+  "per_cs": {
+    "CS1": {
+      "retained": 27,
+      "total": 28
+    },
+    "CS2": {
+      "retained": 23,
+      "total": 25
+    },
+    "CS3": {
+      "retained": 23,
+      "total": 23
+    },
+    "CS4": {
+      "retained": 14,
+      "total": 15
+    },
+    "CS5": {
+      "retained": 14,
+      "total": 14
+    }
+  },
+  "config": "tau=0.35, s16/s8/c4/p0, attn 8",
+  "tau": 0.35,
+  "skeleton": 339,
+  "supporting": 23,
+  "compressible": 239206,
+  "prunable": 48,
+  "eval_s": 182
+}

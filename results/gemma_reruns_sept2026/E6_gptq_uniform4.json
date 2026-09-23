@@ -1,0 +1,29 @@
+{
+  "retention": 96.19,
+  "retained": 101,
+  "total": 105,
+  "per_cs": {
+    "CS1": {
+      "retained": 28,
+      "total": 28
+    },
+    "CS2": {
+      "retained": 23,
+      "total": 25
+    },
+    "CS3": {
+      "retained": 22,
+      "total": 23
+    },
+    "CS4": {
+      "retained": 14,
+      "total": 15
+    },
+    "CS5": {
+      "retained": 14,
+      "total": 14
+    }
+  },
+  "config": "paper GPTQ uniform 4 (reproduce 79.0)",
+  "quant_s": 146
+}

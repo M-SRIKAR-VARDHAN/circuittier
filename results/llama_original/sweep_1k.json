@@ -1,0 +1,395 @@
+{
+  "uniform_8bit": {
+    "retained": 997,
+    "total_evaluated": 1000,
+    "retention_pct": 99.7,
+    "per_complexity": {
+      "CY5": {
+        "retained": 221,
+        "total": 221
+      },
+      "CY2": {
+        "retained": 354,
+        "total": 356
+      },
+      "CY3": {
+        "retained": 218,
+        "total": 219
+      },
+      "CY4": {
+        "retained": 128,
+        "total": 128
+      },
+      "CY1": {
+        "retained": 76,
+        "total": 76
+      }
+    },
+    "compression_ratio": 2.0,
+    "overall_effective_bits": 8.0,
+    "mlp_effective_bits": 8.0,
+    "attn_effective_bits": 8.0,
+    "name": "uniform_8bit",
+    "config": {
+      "name": "uniform_8bit",
+      "type": "uniform",
+      "bits": 8
+    },
+    "eval_time_min": 17.292430512110393
+  },
+  "uniform_6bit": {
+    "retained": 987,
+    "total_evaluated": 1000,
+    "retention_pct": 98.7,
+    "per_complexity": {
+      "CY5": {
+        "retained": 221,
+        "total": 221
+      },
+      "CY2": {
+        "retained": 349,
+        "total": 356
+      },
+      "CY3": {
+        "retained": 216,
+        "total": 219
+      },
+      "CY4": {
+        "retained": 126,
+        "total": 128
+      },
+      "CY1": {
+        "retained": 75,
+        "total": 76
+      }
+    },
+    "compression_ratio": 2.6666666666666665,
+    "overall_effective_bits": 6.0,
+    "mlp_effective_bits": 6.0,
+    "attn_effective_bits": 6.0,
+    "name": "uniform_6bit",
+    "config": {
+      "name": "uniform_6bit",
+      "type": "uniform",
+      "bits": 6
+    },
+    "eval_time_min": 17.334379295508068
+  },
+  "uniform_5bit": {
+    "retained": 958,
+    "total_evaluated": 1000,
+    "retention_pct": 95.8,
+    "per_complexity": {
+      "CY5": {
+        "retained": 220,
+        "total": 221
+      },
+      "CY2": {
+        "retained": 335,
+        "total": 356
+      },
+      "CY3": {
+        "retained": 207,
+        "total": 219
+      },
+      "CY4": {
+        "retained": 122,
+        "total": 128
+      },
+      "CY1": {
+        "retained": 74,
+        "total": 76
+      }
+    },
+    "compression_ratio": 3.2,
+    "overall_effective_bits": 5.0,
+    "mlp_effective_bits": 5.0,
+    "attn_effective_bits": 5.0,
+    "name": "uniform_5bit",
+    "config": {
+      "name": "uniform_5bit",
+      "type": "uniform",
+      "bits": 5
+    },
+    "eval_time_min": 17.327322216828666
+  },
+  "uniform_4bit": {
+    "retained": 508,
+    "total_evaluated": 1000,
+    "retention_pct": 50.8,
+    "per_complexity": {
+      "CY5": {
+        "retained": 99,
+        "total": 221
+      },
+      "CY2": {
+        "retained": 225,
+        "total": 356
+      },
+      "CY3": {
+        "retained": 93,
+        "total": 219
+      },
+      "CY4": {
+        "retained": 31,
+        "total": 128
+      },
+      "CY1": {
+        "retained": 60,
+        "total": 76
+      }
+    },
+    "compression_ratio": 4.0,
+    "overall_effective_bits": 4.0,
+    "mlp_effective_bits": 4.0,
+    "attn_effective_bits": 4.0,
+    "name": "uniform_4bit",
+    "config": {
+      "name": "uniform_4bit",
+      "type": "uniform",
+      "bits": 4
+    },
+    "eval_time_min": 16.883869151274364
+  },
+  "uniform_3bit": {
+    "retained": 0,
+    "total_evaluated": 1000,
+    "retention_pct": 0.0,
+    "per_complexity": {
+      "CY5": {
+        "retained": 0,
+        "total": 221
+      },
+      "CY2": {
+        "retained": 0,
+        "total": 356
+      },
+      "CY3": {
+        "retained": 0,
+        "total": 219
+      },
+      "CY4": {
+        "retained": 0,
+        "total": 128
+      },
+      "CY1": {
+        "retained": 0,
+        "total": 76
+      }
+    },
+    "compression_ratio": 5.333333333333333,
+    "overall_effective_bits": 3.0,
+    "mlp_effective_bits": 3.0,
+    "attn_effective_bits": 3.0,
+    "name": "uniform_3bit",
+    "config": {
+      "name": "uniform_3bit",
+      "type": "uniform",
+      "bits": 3
+    },
+    "eval_time_min": 65.50875730117163
+  },
+  "ct_c4_a8": {
+    "retained": 973,
+    "total_evaluated": 1000,
+    "retention_pct": 97.3,
+    "per_complexity": {
+      "CY5": {
+        "retained": 220,
+        "total": 221
+      },
+      "CY2": {
+        "retained": 345,
+        "total": 356
+      },
+      "CY3": {
+        "retained": 210,
+        "total": 219
+      },
+      "CY4": {
+        "retained": 127,
+        "total": 128
+      },
+      "CY1": {
+        "retained": 71,
+        "total": 76
+      }
+    },
+    "compression_ratio": 2.6713484209269756,
+    "overall_effective_bits": 5.989484514508929,
+    "mlp_effective_bits": 4.984226771763393,
+    "attn_effective_bits": 8.0,
+    "name": "ct_c4_a8",
+    "config": {
+      "name": "ct_c4_a8",
+      "type": "tiered",
+      "mlp_bits": 4,
+      "attn_bits": 8,
+      "skel": 16,
+      "supp": 8
+    },
+    "eval_time_min": 17.34930517276128
+  },
+  "ct_c3_a8": {
+    "retained": 658,
+    "total_evaluated": 1000,
+    "retention_pct": 65.8,
+    "per_complexity": {
+      "CY5": {
+        "retained": 125,
+        "total": 221
+      },
+      "CY2": {
+        "retained": 269,
+        "total": 356
+      },
+      "CY3": {
+        "retained": 119,
+        "total": 219
+      },
+      "CY4": {
+        "retained": 75,
+        "total": 128
+      },
+      "CY1": {
+        "retained": 70,
+        "total": 76
+      }
+    },
+    "compression_ratio": 2.9411963644727472,
+    "overall_effective_bits": 5.4399632045200885,
+    "mlp_effective_bits": 4.159944806780134,
+    "attn_effective_bits": 8.0,
+    "name": "ct_c3_a8",
+    "config": {
+      "name": "ct_c3_a8",
+      "type": "tiered",
+      "mlp_bits": 3,
+      "attn_bits": 8,
+      "skel": 16,
+      "supp": 8
+    },
+    "eval_time_min": 16.9667316198349
+  },
+  "ct_c4_a4": {
+    "retained": 930,
+    "total_evaluated": 1000,
+    "retention_pct": 93.0,
+    "per_complexity": {
+      "CY5": {
+        "retained": 212,
+        "total": 221
+      },
+      "CY2": {
+        "retained": 324,
+        "total": 356
+      },
+      "CY3": {
+        "retained": 205,
+        "total": 219
+      },
+      "CY4": {
+        "retained": 117,
+        "total": 128
+      },
+      "CY1": {
+        "retained": 72,
+        "total": 76
+      }
+    },
+    "compression_ratio": 3.436314539073941,
+    "overall_effective_bits": 4.656151181175595,
+    "mlp_effective_bits": 4.984226771763393,
+    "attn_effective_bits": 4.0,
+    "name": "ct_c4_a4",
+    "config": {
+      "name": "ct_c4_a4",
+      "type": "tiered",
+      "mlp_bits": 4,
+      "attn_bits": 4,
+      "skel": 16,
+      "supp": 8
+    },
+    "eval_time_min": 17.296749488512674
+  },
+  "ct_c3_a4": {
+    "retained": 550,
+    "total_evaluated": 1000,
+    "retention_pct": 55.0,
+    "per_complexity": {
+      "CY5": {
+        "retained": 105,
+        "total": 221
+      },
+      "CY2": {
+        "retained": 239,
+        "total": 356
+      },
+      "CY3": {
+        "retained": 81,
+        "total": 219
+      },
+      "CY4": {
+        "retained": 56,
+        "total": 128
+      },
+      "CY1": {
+        "retained": 69,
+        "total": 76
+      }
+    },
+    "compression_ratio": 3.8961388052671606,
+    "overall_effective_bits": 4.1066298711867555,
+    "mlp_effective_bits": 4.159944806780134,
+    "attn_effective_bits": 4.0,
+    "name": "ct_c3_a4",
+    "config": {
+      "name": "ct_c3_a4",
+      "type": "tiered",
+      "mlp_bits": 3,
+      "attn_bits": 4,
+      "skel": 16,
+      "supp": 8
+    },
+    "eval_time_min": 17.486983025074004
+  },
+  "ct_2tier_c4_a8": {
+    "retained": 958,
+    "total_evaluated": 1000,
+    "retention_pct": 95.8,
+    "per_complexity": {
+      "CY5": {
+        "retained": 219,
+        "total": 221
+      },
+      "CY2": {
+        "retained": 336,
+        "total": 356
+      },
+      "CY3": {
+        "retained": 207,
+        "total": 219
+      },
+      "CY4": {
+        "retained": 123,
+        "total": 128
+      },
+      "CY1": {
+        "retained": 73,
+        "total": 76
+      }
+    },
+    "compression_ratio": 2.8496686012924655,
+    "overall_effective_bits": 5.614687965029762,
+    "mlp_effective_bits": 4.422031947544643,
+    "attn_effective_bits": 8.0,
+    "name": "ct_2tier_c4_a8",
+    "config": {
+      "name": "ct_2tier_c4_a8",
+      "type": "2tier",
+      "mlp_bits": 4,
+      "attn_bits": 8
+    },
+    "eval_time_min": 17.37839885552724
+  }
+}

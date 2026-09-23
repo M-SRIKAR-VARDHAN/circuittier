@@ -1,0 +1,29 @@
+{
+  "retention": 94.29,
+  "retained": 99,
+  "total": 105,
+  "per_cs": {
+    "CS1": {
+      "retained": 28,
+      "total": 28
+    },
+    "CS2": {
+      "retained": 23,
+      "total": 25
+    },
+    "CS3": {
+      "retained": 22,
+      "total": 23
+    },
+    "CS4": {
+      "retained": 13,
+      "total": 15
+    },
+    "CS5": {
+      "retained": 13,
+      "total": 14
+    }
+  },
+  "config": "tier-rule skeleton @16, rest @3, attn @4",
+  "eval_s": 182
+}

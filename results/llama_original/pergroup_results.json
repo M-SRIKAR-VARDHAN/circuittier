@@ -1,0 +1,66 @@
+{
+  "uniform_group_4bit": {
+    "retained": 93,
+    "total": 100,
+    "pct": 93.0,
+    "name": "uniform_group_4bit",
+    "compression_ratio": 4.0,
+    "eval_time_s": 95.3
+  },
+  "uniform_group_8bit": {
+    "retained": 100,
+    "total": 100,
+    "pct": 100.0,
+    "name": "uniform_group_8bit",
+    "compression_ratio": 2.0,
+    "eval_time_s": 95.4
+  },
+  "ct_group_P95_c4a8": {
+    "retained": 99,
+    "total": 100,
+    "pct": 99.0,
+    "name": "ct_group_P95_c4a8",
+    "compression_ratio": 2.88,
+    "eval_time_s": 94.2
+  },
+  "ct_group_P95_c4a4": {
+    "retained": 99,
+    "total": 100,
+    "pct": 99.0,
+    "name": "ct_group_P95_c4a4",
+    "compression_ratio": 3.34,
+    "eval_time_s": 94.1
+  },
+  "ct_group_P99_c4a8": {
+    "retained": 99,
+    "total": 100,
+    "pct": 99.0,
+    "name": "ct_group_P99_c4a8",
+    "compression_ratio": 3.25,
+    "eval_time_s": 97.0
+  },
+  "ct_group_P99_c4a4": {
+    "retained": 98,
+    "total": 100,
+    "pct": 98.0,
+    "name": "ct_group_P99_c4a4",
+    "compression_ratio": 3.84,
+    "eval_time_s": 95.8
+  },
+  "ct_group_P99_c3a4": {
+    "retained": 84,
+    "total": 100,
+    "pct": 84.0,
+    "name": "ct_group_P99_c3a4",
+    "compression_ratio": 4.72,
+    "eval_time_s": 97.3
+  },
+  "ct_group_P99_c4a4_s4": {
+    "retained": 98,
+    "total": 100,
+    "pct": 98.0,
+    "name": "ct_group_P99_c4a4_s4",
+    "compression_ratio": 3.96,
+    "eval_time_s": 96.8
+  }
+}

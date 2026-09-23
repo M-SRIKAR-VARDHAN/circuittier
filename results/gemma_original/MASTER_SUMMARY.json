@@ -1,0 +1,121 @@
+{
+  "project": "ACL 2026 \u2014 Multi-Signal Interpretability for Model Compression",
+  "model": "Gemma-2-2B finetuned on TinySQL (checkpoint-5500, 0.88 epochs)",
+  "date": "2026-02-16",
+  "architecture": {
+    "total_params": 2614341888,
+    "linear_params": 2024275968,
+    "non_linear_params": 590065920,
+    "n_layers": 26,
+    "hidden_dim": 2304,
+    "mlp_intermediate": 9216,
+    "n_heads": 8,
+    "n_kv_heads": 4,
+    "head_dim": 256
+  },
+  "signals": {
+    "count": 6,
+    "names": [
+      "EAP",
+      "Gradient",
+      "Magnitude",
+      "Weight Delta",
+      "Activation Delta",
+      "Edge Importance"
+    ],
+    "decorrelation": "EAP vs Weight Delta r=0.005",
+    "jaccard_overlap": "all pairs 0.000-0.089 (near zero)"
+  },
+  "tiers": {
+    "skeleton_16bit": {
+      "count": 1295,
+      "pct": "0.54%"
+    },
+    "supporting_8bit": {
+      "count": 23,
+      "pct": "0.01%"
+    },
+    "compressible_4bit": {
+      "count": 238250,
+      "pct": "99.43%"
+    },
+    "prunable_0bit": {
+      "count": 48,
+      "pct": "0.02%"
+    }
+  },
+  "key_results_n105": {
+    "baseline_exact_match": "52.5% (105/200)",
+    "uniform_4bit": {
+      "avg_bits": 4.0,
+      "retention": "75.2%"
+    },
+    "uniform_3bit": {
+      "avg_bits": 3.0,
+      "retention": "87.6%"
+    },
+    "tiered_c4_a8": {
+      "avg_bits": 4.78,
+      "retention": "96.2%",
+      "note": "BEST at ~4 bits"
+    },
+    "tiered_c3_a8": {
+      "avg_bits": 3.97,
+      "retention": "94.3%"
+    },
+    "tacq_75pct_3bit_a8": {
+      "avg_bits": 4.17,
+      "retention": "99.0%",
+      "note": "BEST overall"
+    },
+    "gptq_tiered_c4_a8": {
+      "avg_bits": 4.78,
+      "retention": "89.5%",
+      "note": "GPTQ HURTS -6.7pp"
+    }
+  },
+  "reliability_n105": {
+    "at_3bit_a8_random_worst": "81.0%",
+    "at_3bit_a8_random_best": "97.1%",
+    "at_3bit_a8_smart": "98.1%",
+    "at_3bit_a4_random_worst": "66.7%",
+    "at_3bit_a4_smart": "95.2%",
+    "note": "Smart selection = reliability, gap widens with compression"
+  },
+  "ablation_n105": {
+    "random_1295_neurons": "97.1%",
+    "best_single_signal": "Magnitude/Weight Delta at 99.0%",
+    "all_6_signals_topk": "100.0%",
+    "full_tier_rules": "99.0%",
+    "note": "At 4-bit signals barely matter. At 3-bit smart >> random."
+  },
+  "negative_findings": {
+    "gptq_hurts_tiered": "Tiered+GPTQ 89.5% vs Tiered+Naive 96.2% (-6.7pp)",
+    "2bit_collapses": "TaCQ 2-bit: 42.9% even with smart selection",
+    "attn_4bit_hurts": "Tiered c4+a4: 77.1% vs c4+a8: 96.2%"
+  },
+  "next_steps": [
+    "1. Complete 500-sample eval (Cell K) for paper numbers",
+    "2. Add Llama-3-8B or Mistral-7B (generalization)",
+    "3. Add GSM8K or MBPP task (task generalization)",
+    "4. Run AWQ/AutoGPTQ baselines for comparison",
+    "5. Write paper \u2014 strong Findings, borderline Main"
+  ],
+  "files_in_upload": {
+    "json_results": [
+      "BASELINE_SWEEP.json",
+      "BASELINE_CORRECT.json",
+      "RETENTION_FINAL.json",
+      "CELL_H_RESULTS.json",
+      "TACQ_ANALYSIS.json",
+      "ABLATION_FAIR.json",
+      "RANDOM_VS_SMART.json",
+      "ALL_RESULTS_FINAL.json"
+    ],
+    "signals": "ALL_SIGNALS_COMPLETE.npz",
+    "tiers": "tier_arrays.npz",
+    "tacq": "tacq_vulnerability.npz",
+    "hessians": "hessians/ (26 layer files, if saved)",
+    "gradients": "gradient_accum.npz (if saved)"
+  }
+}

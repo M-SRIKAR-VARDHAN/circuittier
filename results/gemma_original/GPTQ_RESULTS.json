@@ -1,0 +1,86 @@
+{
+  "gptq_uniform_4bit": {
+    "ratio": 4.0,
+    "gptq_time": 162.87255930900574,
+    "valid_sql": 100.0,
+    "exact_match": 39.0,
+    "per_cs": {
+      "CS1": {
+        "valid": 100.0,
+        "exact": 95.0
+      },
+      "CS2": {
+        "valid": 100.0,
+        "exact": 30.0
+      },
+      "CS3": {
+        "valid": 100.0,
+        "exact": 35.0
+      },
+      "CS4": {
+        "valid": 100.0,
+        "exact": 20.0
+      },
+      "CS5": {
+        "valid": 100.0,
+        "exact": 15.0
+      }
+    }
+  },
+  "gptq_tiered_attn8": {
+    "ratio": 3.75,
+    "gptq_time": 160.83169078826904,
+    "valid_sql": 100.0,
+    "exact_match": 37.0,
+    "per_cs": {
+      "CS1": {
+        "valid": 100.0,
+        "exact": 95.0
+      },
+      "CS2": {
+        "valid": 100.0,
+        "exact": 30.0
+      },
+      "CS3": {
+        "valid": 100.0,
+        "exact": 30.0
+      },
+      "CS4": {
+        "valid": 100.0,
+        "exact": 20.0
+      },
+      "CS5": {
+        "valid": 100.0,
+        "exact": 10.0
+      }
+    }
+  },
+  "gptq_tiered_3bit_attn8": {
+    "ratio": 5.0,
+    "gptq_time": 165.48207330703735,
+    "valid_sql": 100.0,
+    "exact_match": 44.0,
+    "per_cs": {
+      "CS1": {
+        "valid": 100.0,
+        "exact": 95.0
+      },
+      "CS2": {
+        "valid": 100.0,
+        "exact": 35.0
+      },
+      "CS3": {
+        "valid": 100.0,
+        "exact": 50.0
+      },
+      "CS4": {
+        "valid": 100.0,
+        "exact": 20.0
+      },
+      "CS5": {
+        "valid": 100.0,
+        "exact": 20.0
+      }
+    }
+  }
+}
